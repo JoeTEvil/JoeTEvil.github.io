@@ -1,0 +1,18 @@
+/*!
+ *  Colors 1.0 by @JoeTEvil - http://geekmatic.com
+ */
+$white:     hsla(360, 100%, 100%, 1) !default;
+$red:       hsla(0, 100%, 50%, 1) !default;
+$orange:    hsla(34, 100%, 50%, 1) !default;
+$banana:    hsla(48, 100%, 50%, 1) !default;
+$yellow:    hsla(60, 100%, 50%, 1) !default;
+$light-blue:hsla(212, 100%, 63%, 1) !default;
+$black:     hsla(0, 0%, 0%, 1) !default;
+
+.white { color: $white; }
+.red { color: $red; }
+.orange { color: $orange; }
+.banana { color: $banana; }
+.yellow { color: $yellow; }
+.light-blue { color: $light-blue; }
+.black { color: $black; }

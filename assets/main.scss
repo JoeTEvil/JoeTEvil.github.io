@@ -1,39 +1,93 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
+ @charset "utf-8";
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
 
-$spacing-unit:     30px;
+@import "bulma/utilities/_all";
+@import "bulma/base/_all";
+@import "bulma/elements/_all";
+@import "bulma/components/_all";
+@import "bulma/grid/_all";
+@import "bulma/layout/_all";
+@import "font-awesome";
+@import "colors";
+@import "fa-animation";
+@import "novenus";
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+.nav-item {
+  padding: 0.5rem 0.75rem;
+}
+.nav-item img {
+ max-height: 4rem;
+}
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+// Auto hide menu
 
-// Width of the content area
-$content-width:    800px;
+.header
+{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    margin-bottom: 1rem;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.25);
+}
+.header
+{
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+ 
+    -webkit-transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000 );
+    transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000 );
+ 
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+}
+ 
+.header--hidden
+{
+    -webkit-transform: translateY( -100% );
+    -ms-transform: translateY( -100% );
+    transform: translateY( -100% );
+    box-shadow: none;
+}
 
-$on-palm:          600px;
-$on-laptop:        800px;
+.page-content {
+    padding-top: 4rem;
+}
 
-// Minima also includes a mixin for defining media queries.
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
+.footer {
+    background-color: #292929;
+}
 
-// Import partials from the `minima` theme.
-@import "minima";
+.fa-stack.icon {
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    vertical-align: top;
+    width: 1.5rem;
+}
+
+// PostsGrid
+
+.postItem {
+    height: 20rem;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 1.6rem;
+}
+
+.postMeta {
+    height: 3rem;
+    width: 100%;
+    background-color: hsla(360, 100%, 100%, 0.5);
+}
+
+.postMeta h2 {
+    font-weight: bold;
+    padding: .5rem;
+    color: #292929;
+    text-align: center;
+}

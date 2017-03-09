@@ -14,14 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Geekmatic
-email: joe.t.evil@gmail.com
+
 description: > # this means to ignore newlines until "baseurl:"
   Gadgets & Gizmos for Geeks.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.geekmatic.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: JoeTEvil
-github_username:  JoeTEvil
-
+social:
+  twitter: JoeTEvil
+  github:  JoeTEvil
+  email: joe.t.evil@gmail.com
 # Build settings
 markdown: kramdown
 
@@ -30,3 +31,11 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - bower_components
+  - bower.json
+  - node_modules
+  - package.json
+  - Gruntfile.coffee
+  - Rakefile
+include:
+  - .nojekyll

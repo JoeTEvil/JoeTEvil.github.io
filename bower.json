@@ -1,0 +1,22 @@
+{
+  "name": "geekmatic",
+  "homepage": "http://www.geekmatic.com",
+  "authors": [
+    "joetevil <joe.t.evil@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bulma": "^0.3.2",
+    "font-awesome": "^4.7.0"
+  }
+}

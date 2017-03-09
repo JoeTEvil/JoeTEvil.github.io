@@ -1,46 +1,61 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+<footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered is-hidden-mobile">
+        <h3 class="white"><span class="icon"><i class="fa fa-copyright white"></i></span> Geekmatic</h3>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+      <div class="column is-centered is-hidden-mobile">
+        <h3 class="white">Made with
+          <span class="icon">
+            <i class="fa fa-heart faa-pulse animated red"></i>
+          </span> in <span class="icon">
+            <i class="fa fa-sun-o faa-rocking animated faa-slow banana"></i>
+          </span> Valencia
+        </h3>
       </div>
+      <div class="column is-3 is-centered">
+        <div class="flexContainer flexRow justifyBetween">
+          {% if site.social.github %}
+          <div class="flexItem">
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+            <a href="https://github.com/{{ site.social.github }}" class="nav-item">
+              <span class="fa-stack icon">
+                  <i class="fa fa-circle fa-stack-1x black"></i>
+                  <i class="fa fa-github fa-stack-1x white"></i>
+              </span>
+            </a>
+
+          </div>
+          {% endif %} {% if site.social.twitter %}
+          <div class="flexItem">
+
+            <a href="https://twitter.com/{{ site.social.twitter }}" class="nav-item">
+              <span class="icon">
+                  <i class="fa fa-twitter light-blue"></i>
+              </span>
+            </a>
+
+          </div>
+          {% endif %} {% if site.social.instagram %}
+          <div class="flexItem">
+
+            <a href="https://instagram.com/{{ site.social.instagram }}" class="nav-item">
+              <span class="icon">
+                  <i class="fa fa-instagram"></i>
+              </span>
+            </a>
+
+          </div>
+          {% endif %}
+          <div class="flexItem">
+            <a href="{{ " /feed.xml " | relative_url }}" class="nav-item">
+              <span class="icon">
+                  <i class="fa fa-rss orange"></i>
+              </span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
-
 </footer>
