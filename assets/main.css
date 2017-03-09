@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*! bulma.io v0.3.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -6412,18 +6411,25 @@ label.panel-block {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
+  50% {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg); }
   100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg); } }
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg); }
+  50% {
+    -webkit-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    transform: rotate(120deg); }
   100% {
-    -webkit-transform: rotate(359deg);
-    -ms-transform: rotate(359deg);
-    transform: rotate(359deg); } }
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg); } }
 .faa-spin.animated,
 .faa-spin.animated-hover:hover,
 .faa-parent.animated-hover:hover > .faa-spin {
@@ -6441,3 +6447,35 @@ label.panel-block {
 .faa-parent.animated-hover:hover > .faa-spin.faa-slow {
   -webkit-animation: spin 2.2s linear infinite;
   animation: spin 2.2s linear infinite; }
+
+.nav-item {
+  padding: 0.5rem 0.75rem; }
+
+.nav-item img {
+  max-height: 4rem; }
+
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  margin-bottom: 1rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25); }
+
+.header {
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform; }
+
+.header--hidden {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  box-shadow: none; }
+
+.page-content {
+  padding-top: 4rem; }
