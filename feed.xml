@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.1">Jekyll</generator><link href="http://www.geekmatic.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.geekmatic.com/" rel="alternate" type="text/html" /><updated>2017-03-08T03:08:02+01:00</updated><id>http://www.geekmatic.com/</id><title type="html">Geekmatic</title><subtitle>Gadgets &amp; Gizmos for Geeks.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.1">Jekyll</generator><link href="http://www.geekmatic.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.geekmatic.com/" rel="alternate" type="text/html" /><updated>2017-03-09T13:37:03+01:00</updated><id>http://www.geekmatic.com/</id><title type="html">Geekmatic</title><subtitle>Gadgets &amp; Gizmos for Geeks.
 </subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://www.geekmatic.com/jekyll/update/2017/03/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-03-08T00:33:09+01:00</published><updated>2017-03-08T00:33:09+01:00</updated><id>http://www.geekmatic.com/jekyll/update/2017/03/08/welcome-to-jekyll</id><content type="html" xml:base="http://www.geekmatic.com/jekyll/update/2017/03/08/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -11,4 +11,86 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Rotating Led Clock</title><link href="http://www.geekmatic.com/2015/05/26/rotating-led-clock.html" rel="alternate" type="text/html" title="Rotating Led Clock" /><published>2015-05-26T00:00:00+02:00</published><updated>2015-05-26T00:00:00+02:00</updated><id>http://www.geekmatic.com/2015/05/26/rotating-led-clock</id><content type="html" xml:base="http://www.geekmatic.com/2015/05/26/rotating-led-clock.html">&lt;p&gt;Testing&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-00.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-00.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-01.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Pasives, transistors and crystal resonators soldered.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;!--more--&gt;
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-02.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-03.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-04.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Leds, leds and more leds...&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-06.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-06.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-05.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-05.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Sensors and sockets, semiconductors, 7-segment display.&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name></name></author><category term="tinkering" /><category term="electronics" /><category term="DIY" /><summary type="html">Testing Pasives, transistors and crystal resonators soldered.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.geekmatic.com/%7B%22feature%22=%3E%22https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-05.jpg%22%7D" /></entry><entry><title type="html">Kits and Modules</title><link href="http://www.geekmatic.com/2015/05/26/kits-and-modules.html" rel="alternate" type="text/html" title="Kits and Modules" /><published>2015-05-26T00:00:00+02:00</published><updated>2015-05-26T00:00:00+02:00</updated><id>http://www.geekmatic.com/2015/05/26/kits-and-modules</id><content type="html" xml:base="http://www.geekmatic.com/2015/05/26/kits-and-modules.html">&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-13.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-13.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-14.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-14.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;TM1638 LED and Key module. 24 NeoPixel ring clone.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;!--more--&gt;
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-15.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-15.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-16.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-16.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt; LED clock kit. Rotating LED display kit.&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name></name></author><category term="tinkering" /><category term="electronics" /><summary type="html">TM1638 LED and Key module. 24 NeoPixel ring clone.</summary></entry><entry><title type="html">Boxed Arduino Uno</title><link href="http://www.geekmatic.com/2015/05/25/boxed-arduino-uno.html" rel="alternate" type="text/html" title="Boxed Arduino Uno" /><published>2015-05-25T00:00:00+02:00</published><updated>2015-05-25T00:00:00+02:00</updated><id>http://www.geekmatic.com/2015/05/25/boxed-arduino-uno</id><content type="html" xml:base="http://www.geekmatic.com/2015/05/25/boxed-arduino-uno.html">&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-08.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-08.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-09.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-09.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-10.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Arduino UNO R3 front. Arduino UNO R3 back. Transparent acrylic shell box.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;!--more--&gt;
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-11.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-11.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-12.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-12.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Touch Screen module + Arduino UNO R3 in acrylic box. Touch Screen module back.&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name></name></author><category term="tinkering" /><category term="electronics" /><summary type="html">Arduino UNO R3 front. Arduino UNO R3 back. Transparent acrylic shell box.</summary></entry><entry><title type="html">A bag full of surprises</title><link href="http://www.geekmatic.com/2015/05/25/a-bag-full-of-surprises.html" rel="alternate" type="text/html" title="A bag full of surprises" /><published>2015-05-25T00:00:00+02:00</published><updated>2015-05-25T00:00:00+02:00</updated><id>http://www.geekmatic.com/2015/05/25/a-bag-full-of-surprises</id><content type="html" xml:base="http://www.geekmatic.com/2015/05/25/a-bag-full-of-surprises.html">&lt;p&gt;The mailman brought me today the last order from Banggood (at last!), with plenty of tinkering items. And in such a special day, while we celebrate Towel Day and Geek Pride Day (Thanks Douglas, wherever you are). Here’s the loot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arduino UNO R3 ATmega328P clone.&lt;/li&gt;
+  &lt;li&gt;2.4 Inch TFT LCD Touch Screen module.&lt;/li&gt;
+  &lt;li&gt;Transparent acrylic shell box for Arduino UNO R3.&lt;/li&gt;
+  &lt;li&gt;TM1638 LED and Key module.,&lt;/li&gt;
+  &lt;li&gt;WS2812 5050 24 RGB LED NeoPixel ring clone.&lt;/li&gt;
+  &lt;li&gt;DIY DS1302 LED clock electronic kit with acrylic box.&lt;/li&gt;
+  &lt;li&gt;Rotating LED display kit.
+&lt;!--more--&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-00.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-00.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-01.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-02.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Arduino UNO R3 ATmega328P clone. 2.4 Inch TFT LCD Touch Screen module. Transparent acrylic shell box For Arduino UNO R3.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-03.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-04.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;TM1638 LED and Key module. WS2812 5050 24 RGB LED NeoPixel Ring clone. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-05.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-05.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-06.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-06.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-07.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-07.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;DIY DS1302 LED clock electronic kit. Acrylic box for DS1302 kit. Rotating LED display kit.&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name></name></author><category term="tinkering" /><category term="electronics" /><summary type="html">The mailman brought me today the last order from Banggood (at last!), with plenty of tinkering items. And in such a special day, while we celebrate Towel Day and Geek Pride Day (Thanks Douglas, wherever you are). Here’s the loot: Arduino UNO R3 ATmega328P clone. 2.4 Inch TFT LCD Touch Screen module. Transparent acrylic shell box for Arduino UNO R3. TM1638 LED and Key module., WS2812 5050 24 RGB LED NeoPixel ring clone. DIY DS1302 LED clock electronic kit with acrylic box. Rotating LED display kit.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.geekmatic.com/%7B%22feature%22=%3E%22https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-13.jpg%22%7D" /></entry><entry><title type="html">Making a Useless Machine</title><link href="http://www.geekmatic.com/2014/02/20/useless-machine.html" rel="alternate" type="text/html" title="Making a Useless Machine" /><published>2014-02-20T00:00:00+01:00</published><updated>2014-02-20T00:00:00+01:00</updated><id>http://www.geekmatic.com/2014/02/20/useless-machine</id><content type="html" xml:base="http://www.geekmatic.com/2014/02/20/useless-machine.html">&lt;figure class=&quot;half&quot;&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-02-20-01.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-02-20-01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-02-20-02.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-02-20-02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Pasives, transistors and crystal resonators soldered.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;!--more--&gt;
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-02-20-03.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-02-20-03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-02-20-04.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-02-20-04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-02-20-05.jpg&quot;&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-02-20-05.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Pasives, transistors and crystal resonators soldered.&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name></name></author><category term="tinkering" /><category term="geeky" /><summary type="html">Pasives, transistors and crystal resonators soldered.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.geekmatic.com/%7B%22feature%22=%3E%22https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-02-20-00.jpg%22%7D" /></entry><entry><title type="html">Making a Useless Machine</title><link href="http://www.geekmatic.com/2014/01/24/hello-google-car.html" rel="alternate" type="text/html" title="Making a Useless Machine" /><published>2014-01-24T00:00:00+01:00</published><updated>2014-01-24T00:00:00+01:00</updated><id>http://www.geekmatic.com/2014/01/24/hello-google-car</id><content type="html" xml:base="http://www.geekmatic.com/2014/01/24/hello-google-car.html">&lt;p&gt;&lt;img src=&quot;https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-01-24-00.jpg&quot; alt=&quot;Google Car&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="geeky" /><summary type="html"></summary></entry></feed>
