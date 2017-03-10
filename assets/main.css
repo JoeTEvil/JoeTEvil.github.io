@@ -7429,27 +7429,39 @@ label.panel-block {
   padding: 0.5rem 0.75rem; }
 
 .nav-item img {
-  max-height: 4rem; }
+  max-height: 3rem; }
 
 .page-content {
   padding-top: 4rem; }
 
+.home.container.is-fluid {
+  margin: 0 1rem; }
+
 .postItem {
-  height: 20rem;
+  height: 32rem;
   background-position: center center;
   background-size: cover;
-  margin-bottom: 1.6rem; }
+  margin-bottom: .5rem;
+  border-radius: .25rem; }
+
+.postItem.column {
+  padding-left: .25rem;
+  padding-right: .25rem; }
 
 .postMeta {
   height: 3rem;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.5); }
+  background-color: rgba(255, 255, 255, 0.75); }
 
-.postMeta h2 {
+.postMeta h1 {
   font-weight: bold;
   padding: .5rem;
   color: #292929;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
+
+.page-content {
+  margin: 1.6rem 0; }
 
 .footer {
   background-color: #292929; }
@@ -7460,3 +7472,9 @@ label.panel-block {
   text-align: center;
   vertical-align: top;
   width: 1.5rem; }
+
+.image-hero {
+  width: 100%;
+  height: 32rem;
+  background-position: center center;
+  background-size: cover; }
