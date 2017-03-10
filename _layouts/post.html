@@ -6,15 +6,7 @@ layout: default
 <div class="container">
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    {% if page.tags%}
-    <div class="postTags flexContainer flexRow itemsEnd">
-      {% for tag in page.tags %}
-        <div class="tagContainer flexItem">
-          <h1> {{ tag }} </h1>
-        </div>
-      {% endfor %}
-    </div>
-    {% endif %}
+    {% include page-tags.html %} 
   </header>
 {% if page.image.feature %}
 <div class="image-hero" style="background-image: url('{{ page.image.feature }}');">

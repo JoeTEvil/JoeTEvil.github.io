@@ -1,0 +1,11 @@
+{% if page.tags%}
+<div class="tagsContainer flexItem">
+  <div class="postTags flexContainer flexRow alignStart">
+    {% for tag in page.tags %}
+    <div class="tagContainer flexItem">
+      <h1> {{ tag }} </h1>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

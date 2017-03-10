@@ -8,23 +8,13 @@ layout: default
       <div class="postItem column {{ post.grid-size }}">
         <a class="post-link" href="{{ post.url | relative_url }}">
           <article class="postItem" style="background-image: url('{{ post.image.feature }}');">
-            <div class="postContent flexContainer flexColumnReverse itemsEnd">
+            <div class="postContent flexContainer flexColumn justifyEnd itemsEnd">
             <div class="postMeta flexItem">
               <h1>
                 {{ post.title | escape }}
               </h1>
             </div>
-            {% if post.tags%}
-            <div class="tagsContainer flexItem">
-              <div class="postTags flexContainer flexRow alignStart">
-                {% for tag in post.tags %}
-                <div class="tagContainer flexItem">
-                  <h1> {{ tag }} </h1>
-                </div>
-                {% endfor %}
-              </div>
-            </div>
-            {% endif %}
+              {% include post-tags.html %} 
             </div>
           </article>
         </a>

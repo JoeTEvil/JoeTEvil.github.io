@@ -6,7 +6,11 @@ $red:       hsla(0, 100%, 50%, 1) !default;
 $orange:    hsla(34, 100%, 50%, 1) !default;
 $banana:    hsla(48, 100%, 50%, 1) !default;
 $yellow:    hsla(60, 100%, 50%, 1) !default;
+$lime-green:hsla(86, 100%, 50%, 1) !default;
+$green:     hsla(120, 100%, 50%, 1)!default;
+$dark-green:hsla(120, 100%, 28%, 1) !default;
 $light-blue:hsla(212, 100%, 63%, 1) !default;
+$blue:      hsla(240, 100%, 50%, 1) !default;
 $black:     hsla(0, 0%, 0%, 1) !default;
 
 .white { color: $white; }
@@ -14,5 +18,6 @@ $black:     hsla(0, 0%, 0%, 1) !default;
 .orange { color: $orange; }
 .banana { color: $banana; }
 .yellow { color: $yellow; }
+.lime-green { color: $lime-green; }
 .light-blue { color: $light-blue; }
 .black { color: $black; }
