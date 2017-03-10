@@ -7464,7 +7464,8 @@ label.panel-block {
   margin: 1.6rem 0; }
 
 .footer {
-  background-color: #292929; }
+  background-color: #292929;
+  padding: 2rem 0; }
 
 .fa-stack.icon {
   height: 1.5rem;
