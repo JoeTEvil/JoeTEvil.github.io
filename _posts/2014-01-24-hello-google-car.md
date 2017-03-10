@@ -3,6 +3,7 @@ layout: post
 title: Hello Google car
 excerpt_separator: <!--more-->
 tags: [geeky]
+grid-size: is-4
 image:
   feature: https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2014-01-24-00.jpg
 ---

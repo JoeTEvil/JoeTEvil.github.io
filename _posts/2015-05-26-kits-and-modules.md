@@ -3,6 +3,7 @@ layout: post
 title: Kits and Modules
 excerpt_separator: <!--more-->
 tags: [tinkering, electronics]
+grid-size: is-4
 image:
   feature: https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-14.jpg"
 ---

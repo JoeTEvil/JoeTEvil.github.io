@@ -3,6 +3,7 @@ layout: post
 title: A bag full of surprises
 excerpt_separator: <!--more-->
 tags: [tinkering, electronics]
+grid-size: is-8
 image:
   feature: https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-13.jpg
 ---
