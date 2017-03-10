@@ -7448,6 +7448,9 @@ label.panel-block {
   padding-left: .25rem;
   padding-right: .25rem; }
 
+.postContent {
+  height: 100%; }
+
 .postMeta {
   height: 3rem;
   width: 100%;
@@ -7476,6 +7479,42 @@ label.panel-block {
 
 .image-hero {
   width: 100%;
-  height: 32rem;
+  height: 24rem;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  margin-bottom: 1.6rem; }
+
+h1.post-title {
+  font-weight: bold;
+  font-size: 3rem; }
+
+.postTags {
+  margin: 1rem 0; }
+
+.tagContainer {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  margin: 0 0.5rem; }
+
+.tagContainer h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white; }
+
+.tagContainer:first-child {
+  margin-left: 0; }
+
+.tagContainer:nth-child(1) {
+  background-color: #ffcc00; }
+
+.tagContainer:nth-child(2) {
+  background-color: #ff470f; }
+
+.tagContainer:nth-child(3) {
+  background-color: #ff3860; }
+
+.tagContainer:nth-child(4) {
+  background-color: #b86bff; }
+
+.tagContainer:nth-child(5) {
+  background-color: #429aff; }
