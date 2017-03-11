@@ -3,12 +3,12 @@ layout: default
 ---
 <main class="home page-content" aria-label="Content">
   <div class="home container is-fluid">
-    <section id="PostsGrid" class="columns is-multiline">
+    <section id="PostsGrid" class="columns is-multiline is-gapless">
       {% for post in site.posts %}
       <div class="postItem column {{ post.grid-size }}">
         <a class="post-link" href="{{ post.url | relative_url }}">
           <article class="postItem" style="background-image: url('{{ post.image.feature }}');">
-            <div class="postContent flexContainer flexColumn justifyEnd itemsEnd">
+            <div class="postContent flexContainer flexColumn justifyEnd itemsStart">
             <div class="postMeta flexItem">
               <h1>
                 {{ post.title | escape }}

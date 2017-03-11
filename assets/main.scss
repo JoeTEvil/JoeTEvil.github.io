@@ -25,7 +25,6 @@
     z-index: 1000;
     top: 0;
     left: 0;
-    margin-bottom: 1rem;
     box-shadow: 0px 3px 6px rgba(0,0,0,0.25);
 }
 .header
@@ -48,6 +47,16 @@
     box-shadow: none;
 }
 
+.nav {
+    background-color: rgb(250, 193, 0);
+}
+.nav-item a, a.nav-item {
+    color: rgb(15, 14, 18);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
 .nav-item {
   padding: 0.5rem 0.75rem;
 }
@@ -63,7 +72,7 @@
 // PostsGrid
 
 .home.container.is-fluid {
-    margin: 0 1rem;
+    margin: 0;
 }
 .postItem {
     height: 32rem;
@@ -83,20 +92,21 @@
 .postMeta {
     height: 3rem;
     width: 100%;
-    background-color: hsla(360, 100%, 100%, 0.75);
 }
 
 .postMeta h1 {
     font-weight: bold;
+    font-size: 2rem;
     padding: .5rem;
-    color: #292929;
-    text-align: center;
+    color: white;
+    text-align: left;
     text-transform: uppercase;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.75);
 }
 
 // General
 .page-content {
-    margin: 1.6rem 0;
+    margin: 0;
 }
 .footer {
     background-color: #292929;
@@ -127,6 +137,10 @@ h1.post-title  {
 // Tags
 
 .postTags {
+    margin: 1rem 0;
+    padding: 0 .5rem;
+}
+.pageTags {
     margin: 1rem 0;
 }
 .tagContainer {
