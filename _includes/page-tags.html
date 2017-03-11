@@ -3,7 +3,7 @@
   <div class="pageTags flexContainer flexRow alignStart">
     {% for tag in page.tags %}
     <div class="tagContainer flexItem">
-      <h1> {{ tag }} </h1>
+      <a href="/tags/#{{ tag }}"><h1> {{ tag }} </h1></a>
     </div>
     {% endfor %}
   </div>

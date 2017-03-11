@@ -11,7 +11,7 @@
 @import "bulma/components/_all";
 @import "bulma/grid/_all";
 @import "bulma/layout/_all";
-@import "font-awesome";
+@import "font-awesome/font-awesome";
 @import "colors";
 @import "fa-animation";
 @import "novenus";
@@ -144,14 +144,18 @@ h1.post-title  {
 }
 .tagContainer {
     padding: 0.10rem 0.5rem;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     margin: 0 0.5rem;
 }
 .tagContainer h1 {
     font-weight: bold;
     text-transform: uppercase;
     color: white;
-    text-shadow: 0px 0px 2px rgba(0,0,0,0.75);
+}
+.tagContainer h1 span.tag-count {
+    background-color: white;
+    padding: 0 .25rem;
+    border-radius: 3rem;
 }
 .tagContainer:first-child {
     margin-left: 0;
@@ -170,4 +174,23 @@ h1.post-title  {
 }
 .tagContainer:nth-child(5) {
     background-color: $light-blue;
+}
+
+.tagContainer:first-child h1 span.tag-count {
+    margin-left: 0;
+}
+.tagContainer:nth-child(1) h1 span.tag-count {
+    color: $lime-green;
+}
+.tagContainer:nth-child(2) h1 span.tag-count {
+    color: $orange;
+}
+.tagContainer:nth-child(3) h1 span.tag-count {
+    color: $red;
+}
+.tagContainer:nth-child(4) h1 span.tag-count {
+    color: $purple;
+}
+.tagContainer:nth-child(5) h1 span.tag-count {
+    color: $light-blue;
 }

@@ -18,12 +18,12 @@
       <span></span>
       </span>
       <div id="nav-menu" class="nav-right nav-menu">
-        <a href="{{ "/" | prepend: site.baseurl }}" class="nav-item {% if page.url == " / " %} is-active {% endif %}">
-          Blog
+        {% assign current = page.url | downcase | split: '/' %}
+        <a href="{{ "/" | prepend: site.baseurl }}" class="nav-item {% if current[1] == site.baseurl | relative_url %}class='is-active'{% endif %}">
+          Articles
           </a>
-        <a href="{{ " /categories.html " | prepend: site.baseurl }}" class="nav-item {% if page.url == " /categories.html
-          " %} is-active {% endif %}">
-          Categories
+        <a href="{{ " /tags" | prepend: site.baseurl }}" class="nav-item {% if current[1] == 'tags' %}class='is-active'{% endif %}">
+          Sections
           </a>
       </div>
     </div>

@@ -1,0 +1,38 @@
+---
+layout: default
+title: Tag Archive
+description: "An archive of posts sorted by tag."
+comments: false
+---
+
+<main class="home page-content" aria-label="Content">
+  <div class="container">
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tags_list = site_tags | split:',' | sort %}
+
+
+
+<div class="tagsContainer flexItem">
+  <div class="pageTags flexContainer flexRow alignStart">
+  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
+    <div class="tagContainer flexItem">
+  	<a href="#{{ this_word }}"><h1>{{ this_word }} <span class="tag-count">{{ site.tags[this_word].size }}</span></h1></a>
+    </div>
+  {% endunless %}{% endfor %}
+ </div>
+</div>
+
+{% for item in (0..site.tags.size) %}{% unless forloop.last %}
+  {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
+	<article>
+	<h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
+		<ul>
+    {% for post in site.tags[this_word] %}{% if post.title != null %}
+      <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endif %}{% endfor %}
+		</ul>
+	</article><!-- /.hentry -->
+{% endunless %}{% endfor %}
+  </div>
+</main>
