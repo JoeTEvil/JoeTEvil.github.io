@@ -6370,6 +6370,9 @@ label.panel-block {
 .yellow {
   color: #ffdd57; }
 
+.lime-green {
+  color: #91ff00; }
+
 .light-blue {
   color: #429aff; }
 
@@ -7408,7 +7411,6 @@ label.panel-block {
   z-index: 1000;
   top: 0;
   left: 0;
-  margin-bottom: 1rem;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25); }
 
 .header {
@@ -7425,6 +7427,15 @@ label.panel-block {
   transform: translateY(-100%);
   box-shadow: none; }
 
+.nav {
+  background-color: #fac100; }
+
+.nav-item a, a.nav-item {
+  color: #0f0e12;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.4rem; }
+
 .nav-item {
   padding: 0.5rem 0.75rem; }
 
@@ -7435,14 +7446,13 @@ label.panel-block {
   padding-top: 4rem; }
 
 .home.container.is-fluid {
-  margin: 0 1rem; }
+  margin: 0; }
 
 .postItem {
   height: 32rem;
   background-position: center center;
   background-size: cover;
-  margin-bottom: .5rem;
-  border-radius: .25rem; }
+  margin-bottom: .5rem; }
 
 .postItem.column {
   padding-left: .25rem;
@@ -7453,18 +7463,19 @@ label.panel-block {
 
 .postMeta {
   height: 3rem;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.75); }
+  width: 100%; }
 
 .postMeta h1 {
   font-weight: bold;
+  font-size: 2rem;
   padding: .5rem;
-  color: #292929;
-  text-align: center;
-  text-transform: uppercase; }
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
 
 .page-content {
-  margin: 1.6rem 0; }
+  margin: 0; }
 
 .footer {
   background-color: #292929;
@@ -7489,23 +7500,28 @@ h1.post-title {
   font-size: 3rem; }
 
 .postTags {
+  margin: 1rem 0;
+  padding: 0 .5rem; }
+
+.pageTags {
   margin: 1rem 0; }
 
 .tagContainer {
-  padding: 0.25rem 0.5rem;
+  padding: 0.10rem 0.5rem;
   border-radius: 0.25rem;
   margin: 0 0.5rem; }
 
 .tagContainer h1 {
   font-weight: bold;
   text-transform: uppercase;
-  color: white; }
+  color: white;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
 
 .tagContainer:first-child {
   margin-left: 0; }
 
 .tagContainer:nth-child(1) {
-  background-color: #ffcc00; }
+  background-color: #91ff00; }
 
 .tagContainer:nth-child(2) {
   background-color: #ff470f; }
