@@ -7428,7 +7428,8 @@ label.panel-block {
   box-shadow: none; }
 
 .nav {
-  background-color: #fac100; }
+  background-color: #fac100;
+  padding: 0 1rem; }
 
 .nav-item a, a.nav-item {
   color: #0f0e12;
@@ -7448,7 +7449,7 @@ label.panel-block {
 .nav-item a:hover, a.nav-item:hover {
   color: #ff3860; }
 
-.home.container.is-fluid, .posts.container.is-fluid {
+.container.is-fluid {
   margin: 0; }
 
 .postItem {
