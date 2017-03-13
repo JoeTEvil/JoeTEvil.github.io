@@ -7449,10 +7449,6 @@ label.panel-block {
 .nav-item a:hover, a.nav-item:hover {
   color: #ff3860; }
 
-.nav-toggle .fa.fa-bars {
-  font-size: 2.5em;
-  line-height: 4rem; }
-
 .container.is-fluid {
   margin: 0; }
 
