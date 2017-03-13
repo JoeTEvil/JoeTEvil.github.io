@@ -7448,9 +7448,6 @@ label.panel-block {
 .nav-item a:hover, a.nav-item:hover {
   color: #ff3860; }
 
-.page-content {
-  padding-top: 4rem; }
-
 .home.container.is-fluid, .posts.container.is-fluid {
   margin: 0; }
 
@@ -7481,7 +7478,7 @@ label.panel-block {
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
 
 .page-content {
-  margin: 0; }
+  margin: 4rem 0 0 0; }
 
 .footer {
   background-color: #292929;
@@ -7568,3 +7565,37 @@ h1.post-title {
 
 article.post, article.tags {
   margin-top: 3rem; }
+
+#HomeFeatured {
+  padding: 6rem 0;
+  margin: 0;
+  background-color: purple; }
+
+#HomeFeatured .po-20 {
+  color: white; }
+
+#HomeFeatured h1, #HomeFeatured h2, #HomeFeatured p {
+  color: white; }
+
+#HomeFeatured h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem 0; }
+
+#HomeFeatured h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 1rem 0; }
+
+#HomeFeatured p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  text-align: justify; }
+
+.po-20 {
+  background-image: url("/assets/po-20.svg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  fill: white; }
