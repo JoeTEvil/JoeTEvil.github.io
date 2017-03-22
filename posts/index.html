@@ -1,5 +1,5 @@
---- 
-layout: default
+---
+layout: default 
 ---
 <main class="posts page-content" aria-label="Content">
   <div class="posts container is-fluid">
@@ -7,14 +7,18 @@ layout: default
       {% for post in site.categories.post %}
       <div class="postItem column {{ post.grid-size }}">
         <a class="post-link" href="{{ post.url | relative_url }}">
-          <article class="postBody" style="background-image: url('{{ post.image.feature }}');">
-            <div class="postContent flexContainer flexColumn justifyEnd itemsEnd">
-            <div class="postMeta flexItem">
-              <h1>
-                {{ post.title | escape }}
-              </h1>
-            </div>
-              {% include post-tags.html %} 
+
+          <article class="postBody flexContainer flexColumn justifyEnd itemsEnd" style="background-image: url('{{ post.image.feature }}');">
+            <div class="postArrow flexItem"></div>
+            <div class="postContent flexItem">
+              <div class="flexContainer flexColumn justifyEnd itemsEnd">
+                <div class="postMeta flexItem">
+                  <h1>
+                    {{ post.title | escape }}
+                  </h1>
+                </div>
+                {% include post-tags.html %}
+              </div>
             </div>
           </article>
         </a>
