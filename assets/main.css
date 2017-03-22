@@ -7519,7 +7519,8 @@ body h5 {
   color: white;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0px 0px 1px black; }
+  text-shadow: 0px 0px 1px black;
+  margin-bottom: .5rem; }
 
 .postItem:nth-child(5n+1), .postItem:nth-child(5n+1) .postContent {
   background-color: #91ff00; }
