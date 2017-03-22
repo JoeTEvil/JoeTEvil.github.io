@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -7194,6 +7195,9 @@ label.panel-block {
   -webkit-animation: burst 3s infinite linear;
   animation: burst 3s infinite linear; }
 
+/*!
+ *  Flex  1.6 by @JoeTEvil - http://geekmatic.com
+ */
 .flexContainer {
   display: -webkit-box;
   display: -moz-box;
@@ -7405,6 +7409,16 @@ label.panel-block {
 @media only screen and (max-width: 768px) {
   .flexItemFull {
     width: 100%; } }
+/*!
+ *  Typography 1.0 by @JoeTEvil - http://geekmatic.com
+ */
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+  font-family: 'Ubuntu', sans-serif; }
+
 .header {
   width: 100%;
   position: fixed;
@@ -7453,6 +7467,9 @@ label.panel-block {
   margin: 0; }
 
 .postItem {
+  height: 32rem; }
+
+.postBody {
   height: 32rem;
   background-position: center center;
   background-size: cover;
@@ -7470,20 +7487,37 @@ label.panel-block {
   width: 100%; }
 
 .postMeta h1 {
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
   padding: .5rem;
   color: white;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
+  text-shadow: 0px 0px 1px black; }
+
+.postItem:nth-child(5n+1) {
+  background-color: #91ff00; }
+
+.postItem:nth-child(5n+2) {
+  background-color: #ff470f; }
+
+.postItem:nth-child(5n+3) {
+  background-color: #ff3860; }
+
+.postItem:nth-child(5n+4) {
+  background-color: #b86bff; }
+
+.postItem:nth-child(5n+5) {
+  background-color: #429aff; }
 
 .page-content {
   margin: 4rem 0 0 0; }
 
 .footer {
   background-color: #292929;
-  padding: 2rem 0; }
+  padding: 2rem 1rem; }
 
 .fa-stack.icon {
   height: 1.5rem;
@@ -7491,6 +7525,30 @@ label.panel-block {
   text-align: center;
   vertical-align: top;
   width: 1.5rem; }
+
+.fa-copy {
+  -webkit-text-stroke-width: .06rem;
+  -webkit-text-stroke-color: grey; }
+
+.fa-heart {
+  -webkit-text-stroke-width: .06rem;
+  -webkit-text-stroke-color: red; }
+
+.fa-sun-o {
+  -webkit-text-stroke-width: .06rem;
+  -webkit-text-stroke-color: orangered; }
+
+.fa-github {
+  -webkit-text-stroke-width: .06rem;
+  -webkit-text-stroke-color: grey; }
+
+.fa-twitter {
+  -webkit-text-stroke-width: .06rem;
+  -webkit-text-stroke-color: blue; }
+
+.fa-rss {
+  -webkit-text-stroke-width: .06rem;
+  -webkit-text-stroke-color: red; }
 
 .image-hero {
   width: 100%;
@@ -7500,6 +7558,7 @@ label.panel-block {
   margin-bottom: 1.6rem; }
 
 h1.post-title {
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   font-size: 3rem; }
 
@@ -7510,19 +7569,28 @@ h1.post-title {
   margin: 1rem 0; }
 
 .pageTags .tagContainer {
-  padding: 0.20rem 0.5rem;
-  border-radius: 0.5rem;
-  margin-right: 1rem; }
+  padding: 0.10rem 0.5rem;
+  border-radius: .9rem;
+  margin-right: 1rem;
+  border-width: 3px;
+  border-color: rgba(255, 255, 255, 0.3);
+  border-style: solid; }
 
 .postTags .tagContainer {
-  padding: 0 0.5rem;
-  border-radius: 0.5rem;
-  margin-right: 1rem; }
+  padding: 0.10rem 0.5rem;
+  border-radius: .9rem;
+  margin-right: 1rem;
+  border-width: 3px;
+  border-color: rgba(255, 255, 255, 0.3);
+  border-style: solid;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6); }
 
 .tagContainer h1 {
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
   color: white;
   margin: 0; }
 
@@ -7531,72 +7599,82 @@ h1.post-title {
   padding: 0 .25rem;
   border-radius: 3rem; }
 
-.tagContainer:nth-child(1) {
+.tagContainer:nth-child(5n+1) {
   background-color: #91ff00; }
 
-.tagContainer:nth-child(2) {
+.tagContainer:nth-child(5n+2) {
   background-color: #ff470f; }
 
-.tagContainer:nth-child(3) {
+.tagContainer:nth-child(5n+3) {
   background-color: #ff3860; }
 
-.tagContainer:nth-child(4) {
+.tagContainer:nth-child(5n+4) {
   background-color: #b86bff; }
 
-.tagContainer:nth-child(5) {
+.tagContainer:nth-child(5n+5) {
   background-color: #429aff; }
 
 .tagContainer:first-child h1 span.tag-count {
   margin-left: 0; }
 
-.tagContainer:nth-child(1) h1 span.tag-count {
+.tagContainer:nth-child(5n+1) h1 span.tag-count {
   color: #91ff00; }
 
-.tagContainer:nth-child(2) h1 span.tag-count {
+.tagContainer:nth-child(5n+2) h1 span.tag-count {
   color: #ff470f; }
 
-.tagContainer:nth-child(3) h1 span.tag-count {
+.tagContainer:nth-child(5n+3) h1 span.tag-count {
   color: #ff3860; }
 
-.tagContainer:nth-child(4) h1 span.tag-count {
+.tagContainer:nth-child(5n+4) h1 span.tag-count {
   color: #b86bff; }
 
-.tagContainer:nth-child(5) h1 span.tag-count {
+.tagContainer:nth-child(5n+5) h1 span.tag-count {
   color: #429aff; }
 
 article.post, article.tags {
   margin-top: 3rem; }
 
-#HomeFeatured {
+.featuredItem {
   padding: 6rem 0;
-  margin: 0;
-  background-color: purple; }
+  margin: 0 !important; }
 
-#HomeFeatured .po-20 {
+.featuredItem h1, .featuredItem h2, .featuredItem p {
   color: white; }
 
-#HomeFeatured h1, #HomeFeatured h2, #HomeFeatured p {
-  color: white; }
-
-#HomeFeatured h1 {
+.featuredItem h1 {
   font-size: 3rem;
   font-weight: bold;
   padding: 1rem 0; }
 
-#HomeFeatured h2 {
+.featuredItem h2 {
   font-size: 2.5rem;
-  font-weight: bold;
   padding: 1rem 0; }
 
-#HomeFeatured p {
+.featuredItem p {
   font-size: 1.2rem;
   line-height: 1.6rem;
   text-align: justify; }
 
-.po-20 {
-  background-image: url("/assets/po-20.svg");
+.featuredImage {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 30rem;
+  height: 100%;
+  min-height: 30rem;
   fill: white; }
+
+.featuredItem:nth-child(5n+1) {
+  background-color: #91ff00; }
+
+.featuredItem:nth-child(5n+2) {
+  background-color: #ff470f; }
+
+.featuredItem:nth-child(5n+3) {
+  background-color: #ff3860; }
+
+.featuredItem:nth-child(5n+4) {
+  background-color: #b86bff; }
+
+.featuredItem:nth-child(5n+5) {
+  background-color: #429aff; }
