@@ -3,6 +3,7 @@ layout: post
 title: Rotating Led Clock
 excerpt_separator: <!--more-->
 tags: [tinkering, electronics, DIY]
+category: post
 grid-size: is-4
 image:
   feature: https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-26-05.jpg

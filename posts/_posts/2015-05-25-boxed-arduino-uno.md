@@ -3,6 +3,7 @@ layout: post
 title: Boxed Arduino Uno
 excerpt_separator: <!--more-->
 tags: [tinkering, electronics]
+category: post
 grid-size: is-4
 image:
   feature: https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/2015-05-25-10.jpg

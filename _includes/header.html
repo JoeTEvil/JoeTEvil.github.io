@@ -1,6 +1,7 @@
 <header class="header site-header" role="banner">
+  <div class="container is-fluid">
   <nav class="nav">
-    <div class="container is-fluid">
+    
       <div class="nav-left">
         <a class="nav-item  is-brand" href="{{ "/" | relative_url }}">
             <img src="https://s3-eu-west-1.amazonaws.com/geekmatic/assets/img/logo_geekmatic.png" alt="{{ site.title | escape }}">
@@ -19,13 +20,11 @@
       </span>
       <div id="nav-menu" class="nav-right nav-menu">
         {% assign current = page.url | downcase | split: '/' %}
-        <a href="{{ "/" | prepend: site.baseurl }}" class="nav-item {% if current[1] == site.baseurl | relative_url %}class='is-active'{% endif %}">
-          Articles
-          </a>
-        <a href="{{ " /tags" | prepend: site.baseurl }}" class="nav-item {% if current[1] == 'tags' %}class='is-active'{% endif %}">
-          Sections
-          </a>
+        <a href="/" class="nav-item{% if page.url == "/" %} is-active{% endif %}">Home</a>
+        <a href="{{ "/posts" | prepend: site.baseurl }}" class="nav-item{% if current[1] == 'posts' %} is-active{% endif %}">Blog</a>
+        <a href="{{ "/tags" | prepend: site.baseurl }}" class="nav-item{% if current[1] == 'tags' %} is-active{% endif %}">Sections</a>
       </div>
-    </div>
+    
   </nav>
+  </div>
 </header>

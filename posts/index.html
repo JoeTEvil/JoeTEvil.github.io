@@ -1,28 +1,8 @@
 --- 
-layout: default 
+layout: default
 ---
-<main class="home page-content" aria-label="Content">
-  <div class="home container is-fluid">
-    
-    <section id="HomeFeatured">
-    {% for post in site.categories.featured limit:1 %}
-      <div class="featuredItem columns is-gapless">
-        <div class="column is-6">
-          <div class="featuredImage" style="background-image: url('{{ post.image }}')">
-          </div>
-        </div>
-
-        <div class="column is-4">
-          <div class="featuredMeta">
-          <h1>{{ post.title | escape }}</h1>
-          <h2>{{ post.second-title | escape }}</h2>
-          <p>{{ post.content }}</p>
-        </div>
-        </div>
-      </div>
-    {% endfor %}
-    </section>
-    
+<main class="posts page-content" aria-label="Content">
+  <div class="posts container is-fluid">
     <section id="PostsGrid" class="columns is-multiline is-gapless">
       {% for post in site.categories.post %}
       <div class="postItem column {{ post.grid-size }}">

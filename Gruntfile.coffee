@@ -80,6 +80,8 @@ module.exports = (grunt) ->
           "_posts/**/*"
           "_sass/**/*"
           "assets/**/*"
+          "tags/**/*"
+          "posts/**/*"
           "fonts/**/*"
           "_config.yml"
           "*.html"
