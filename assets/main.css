@@ -7488,7 +7488,7 @@ body h5 {
   width: 0;
   background-color: none;
   border: 30px solid transparent;
-  margin-right: 2rem;
+  margin-left: 2rem;
   margin-bottom: -1px; }
 
 .postItem:nth-child(5n+1) .postArrow {
@@ -7708,3 +7708,6 @@ article.post {
 
 .featuredItem:nth-child(5n+5) {
   background-color: #334d5c; }
+
+.featuredMeta {
+  padding: 1rem; }
