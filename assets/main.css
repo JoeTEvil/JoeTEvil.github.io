@@ -7480,7 +7480,8 @@ body h5 {
   padding-right: .25rem; }
 
 .postContent {
-  width: 100%; }
+  width: 100%;
+  min-height: 6rem; }
 
 .postArrow {
   content: ' ';
