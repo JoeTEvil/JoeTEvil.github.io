@@ -7697,7 +7697,7 @@ body.lb-disable-scrolling {
   width: 100%;
   padding: 0 1rem; }
 
-.postMeta h1 {
+.postMeta h2 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   font-size: 2.5rem;
@@ -7784,7 +7784,7 @@ body.lb-disable-scrolling {
   border-style: solid;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.6); }
 
-.tagContainer h1 {
+.tagContainer h2 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -7793,7 +7793,7 @@ body.lb-disable-scrolling {
   color: white;
   margin: 0; }
 
-.tagContainer h1 span.tag-count {
+.tagContainer h2 span.tag-count {
   background-color: white;
   padding: 0 .25rem;
   border-radius: 3rem; }
@@ -7813,22 +7813,22 @@ body.lb-disable-scrolling {
 .tagContainer:nth-child(5n+5) {
   background-color: #e95a49; }
 
-.tagContainer:first-child h1 span.tag-count {
+.tagContainer:first-child h2 span.tag-count {
   margin-left: 0; }
 
-.tagContainer:nth-child(5n+1) h1 span.tag-count {
+.tagContainer:nth-child(5n+1) h2 span.tag-count {
   color: #e95a49; }
 
-.tagContainer:nth-child(5n+2) h1 span.tag-count {
+.tagContainer:nth-child(5n+2) h2 span.tag-count {
   color: #e27a3f; }
 
-.tagContainer:nth-child(5n+3) h1 span.tag-count {
+.tagContainer:nth-child(5n+3) h2 span.tag-count {
   color: #efc94c; }
 
-.tagContainer:nth-child(5n+4) h1 span.tag-count {
+.tagContainer:nth-child(5n+4) h2 span.tag-count {
   color: #45b29d; }
 
-.tagContainer:nth-child(5n+5) h1 span.tag-count {
+.tagContainer:nth-child(5n+5) h2 span.tag-count {
   color: #334d5c; }
 
 .image-hero {
@@ -7855,15 +7855,15 @@ h1.post-title {
   padding: 6rem 0;
   margin: 0 !important; }
 
-.featuredItem h1, .featuredItem h2, .featuredItem p {
+.featuredItem h2, .featuredItem h3, .featuredItem p {
   color: white; }
 
-.featuredItem h1 {
+.featuredItem h2 {
   font-size: 3rem;
   font-weight: bold;
   padding: 1rem 0; }
 
-.featuredItem h2 {
+.featuredItem h3 {
   font-size: 2.5rem;
   padding: 1rem 0; }
 
