@@ -19,6 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Gadgets & Gizmos for Geeks.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://www.geekmatic.com # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: UA-96726832-1
 social:
   twitter: JoeTEvil
   github:  JoeTEvil

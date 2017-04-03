@@ -14,9 +14,9 @@ layout: default
 
         <div class="column is-4">
           <div class="featuredMeta">
-          <h1>{{ post.title | escape }}</h1>
-          <h2>{{ post.second-title | escape }}</h2>
-          <p>{{ post.content }}</p>
+          <h2>{{ post.title | escape }}</h2>
+          <h3>{{ post.second-title | escape }}</h3>
+          {{ post.content }}
         </div>
         </div>
       </div>
@@ -27,14 +27,14 @@ layout: default
       {% for post in site.categories.post %}
       <div class="postItem column {{ post.grid-size }}">
         <a class="post-link" href="{{ post.url | relative_url }}">
-          <article class="postBody flexContainer flexColumn justifyEnd itemsEnd" style="background-image: url('{{ post.image.feature }}');">
+          <article class="postBody flexContainer flexColumn justifyEnd itemsStart" {% if post.image.feature %} style="background-image: url('{{ post.image.feature }}');"{% endif %}>
             <div class="postArrow flexItem"></div>
             <div class="postContent flexItem">
                <div class="flexContainer flexColumn justifyEnd itemsEnd">
             <div class="postMeta flexItem">
-              <h1>
+              <h2>
                 {{ post.title | escape }}
-              </h1>
+              </h2>
             </div>
               {% include post-tags.html %} 
             </div>
@@ -43,5 +43,6 @@ layout: default
         </a>
       </div>
       {% endfor %}
+    </section>
   </div>
 </main>

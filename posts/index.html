@@ -8,14 +8,14 @@ layout: default
       <div class="postItem column {{ post.grid-size }}">
         <a class="post-link" href="{{ post.url | relative_url }}">
 
-          <article class="postBody flexContainer flexColumn justifyEnd itemsEnd" style="background-image: url('{{ post.image.feature }}');">
+          <article class="postBody flexContainer flexColumn justifyEnd itemsEnd" {% if post.image.feature %} style="background-image: url('{{ post.image.feature }}');"{% endif %}>
             <div class="postArrow flexItem"></div>
             <div class="postContent flexItem">
               <div class="flexContainer flexColumn justifyEnd itemsEnd">
                 <div class="postMeta flexItem">
-                  <h1>
+                  <h2>
                     {{ post.title | escape }}
-                  </h1>
+                  </h2>
                 </div>
                 {% include post-tags.html %}
               </div>
@@ -24,5 +24,6 @@ layout: default
         </a>
       </div>
       {% endfor %}
+    </section>
   </div>
 </main>

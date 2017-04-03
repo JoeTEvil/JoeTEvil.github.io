@@ -14,6 +14,7 @@
 @import "fa-animation";
 @import "novenus";
 @import "typography";
+@import "lightbox";
 
 // Auto hide menu
 
@@ -92,6 +93,7 @@
 }
 .postContent {
     width: 100%;
+    min-height: 6rem;
 }
 
 .postArrow {
@@ -100,55 +102,57 @@
     width: 0;
     background-color: none;
     border: 30px solid transparent;
-    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: -1px;
 }
 
 .postItem:nth-child(5n+1) .postArrow {
-    border-bottom-color: $lime-green;
+    border-bottom-color: $shade-01;
 }
 .postItem:nth-child(5n+2) .postArrow {
-    border-bottom-color: $orange;
+    border-bottom-color: $shade-02;
 }
 .postItem:nth-child(5n+3) .postArrow {
-    border-bottom-color: $red;
+    border-bottom-color: $shade-03;
 }
 .postItem:nth-child(5n+4) .postArrow {
-    border-bottom-color: $purple;
+    border-bottom-color: $shade-04;
 }
 .postItem:nth-child(5n+5) .postArrow {
-    border-bottom-color: $light-blue;
+    border-bottom-color: $shade-05;
 }
 
 .postMeta {
     height: 3rem;
     width: 100%;
+    padding: 0 1rem;
 }
 
-.postMeta h1 {
+.postMeta h2 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 2.5rem;
     line-height: 3rem;
     padding: .5rem;
     color: white;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
-    text-shadow: 0px 0px 1px rgba(0,0,0,1);
+   // text-shadow: 0px 0px 1px rgba(0,0,0,1);
 }
 .postItem:nth-child(5n+1), .postItem:nth-child(5n+1) .postContent {
-    background-color: $lime-green;
+    background-color: $shade-01;
 }
 .postItem:nth-child(5n+2), .postItem:nth-child(5n+2) .postContent {
-    background-color: $orange;
+    background-color: $shade-02;
 }
 .postItem:nth-child(5n+3), .postItem:nth-child(5n+3) .postContent {
-    background-color: $red;
+    background-color: $shade-03;
 }
 .postItem:nth-child(5n+4), .postItem:nth-child(5n+4) .postContent {
-    background-color: $purple;
+    background-color: $shade-04;
 }
 .postItem:nth-child(5n+5), .postItem:nth-child(5n+5) .postContent {
-    background-color: $light-blue;
+    background-color: $shade-05;
 }
 
 // General
@@ -196,19 +200,8 @@
 }
 
 // postItem
-.image-hero {
-    width: 100%;
-    height: 24rem;
-    background-position: center center;
-    background-size: cover;
-    margin-bottom: 1.6rem;
-}
 
-h1.post-title  {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-}
+
 
 // Tags
 
@@ -237,7 +230,7 @@ h1.post-title  {
     border-style: solid;
     box-shadow: 0 0 3px rgba(0,0,0,0.6);
 }
-.tagContainer h1 {
+.tagContainer h2 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -246,51 +239,64 @@ h1.post-title  {
     color: white;
     margin: 0;
 }
-.tagContainer h1 span.tag-count {
+.tagContainer h2 span.tag-count {
     background-color: white;
     padding: 0 .25rem;
     border-radius: 3rem;
 }
 .tagContainer:nth-child(5n+1) {
-    background-color: $lime-green;
+    background-color: $shade-05;
 }
 .tagContainer:nth-child(5n+2) {
-    background-color: $orange;
+    background-color: $shade-04;
 }
 .tagContainer:nth-child(5n+3) {
-    background-color: $red;
+    background-color: $shade-03;
 }
 .tagContainer:nth-child(5n+4) {
-    background-color: $purple;
+    background-color: $shade-02;
 }
 .tagContainer:nth-child(5n+5) {
-    background-color: $light-blue;
+    background-color: $shade-01;
 }
 
-.tagContainer:first-child h1 span.tag-count {
+.tagContainer:first-child h2 span.tag-count {
     margin-left: 0;
 }
-.tagContainer:nth-child(5n+1) h1 span.tag-count {
-    color: $lime-green;
+.tagContainer:nth-child(5n+1) h2 span.tag-count {
+    color: $shade-01;
 }
-.tagContainer:nth-child(5n+2) h1 span.tag-count {
-    color: $orange;
+.tagContainer:nth-child(5n+2) h2 span.tag-count {
+    color: $shade-02;
 }
-.tagContainer:nth-child(5n+3) h1 span.tag-count {
-    color: $red;
+.tagContainer:nth-child(5n+3) h2 span.tag-count {
+    color: $shade-03;
 }
-.tagContainer:nth-child(5n+4) h1 span.tag-count {
-    color: $purple;
+.tagContainer:nth-child(5n+4) h2 span.tag-count {
+    color: $shade-04;
 }
-.tagContainer:nth-child(5n+5) h1 span.tag-count {
-    color: $light-blue;
+.tagContainer:nth-child(5n+5) h2 span.tag-count {
+    color: $shade-05;
 }
 
 // Post
+.image-hero {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
 
-article.post {
-    margin-top: 3rem;
-    padding: 2rem 0;
+h1.post-title  {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0,0,0,1);
+}
+
+.post-content {
+    padding: 1rem;
 }
 
 // Sections
@@ -299,6 +305,7 @@ article.post {
     margin-top: 3rem;
     padding: 2rem 0;
 }
+
 // Home Featured
 
 .featuredItem {
@@ -306,23 +313,22 @@ article.post {
     margin: 0 !important;
 }
 
-
-.featuredItem h1, .featuredItem h2, .featuredItem p {
+.featuredItem h2, .featuredItem h3, .featuredItem p {
     color: white;
 }
 
-.featuredItem h1 {
+.featuredItem h2 {
     font-size: 3rem;
     font-weight: bold;
     padding: 1rem 0;
 }
-.featuredItem h2 {
+.featuredItem h3 {
     font-size: 2.5rem;
     padding: 1rem 0;
 }
 .featuredItem p {
     font-size: 1.2rem;
-    line-height: 1.6rem;
+    line-height: 2.6rem;
     text-align: justify;
 }
 .featuredImage{
@@ -335,17 +341,21 @@ article.post {
 }
 
 .featuredItem:nth-child(5n+1) {
-    background-color: $lime-green;
+    background-color: $shade-01;
 }
 .featuredItem:nth-child(5n+2) {
-    background-color: $orange;
+    background-color: $shade-02;
 }
 .featuredItem:nth-child(5n+3) {
-    background-color: $red;
+    background-color: $shade-03;
 }
 .featuredItem:nth-child(5n+4) {
-    background-color: $purple;
+    background-color: $shade-04;
 }
 .featuredItem:nth-child(5n+5) {
-    background-color: $light-blue;
+    background-color: $shade-05;
+}
+
+.featuredMeta {
+    padding: 1rem;
 }

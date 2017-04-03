@@ -65,10 +65,12 @@ module.exports = (grunt) ->
             }]
         }
     }
-    exec:
+    exec: {
       jekyll:
         cmd: "jekyll build --trace"
-
+      hyde:
+        cmd: "JEKYLL_ENV=production jekyll build --trace"
+    }
     watch: {
       options:
         livereload: true
@@ -77,11 +79,11 @@ module.exports = (grunt) ->
           "_drafts/**/*"
           "_includes/**/*"
           "_layouts/**/*"
-          "_posts/**/*"
           "_sass/**/*"
           "assets/**/*"
           "tags/**/*"
           "posts/**/*"
+          "posts/_posts/**/*"
           "fonts/**/*"
           "_config.yml"
           "*.html"
@@ -109,6 +111,11 @@ module.exports = (grunt) ->
     "build"
     "connect:server"
     "watch"
+  ]
+
+  grunt.registerTask "deploy", [
+    "copy"
+    "exec:hyde"
   ]
 
   grunt.registerTask "default", [
