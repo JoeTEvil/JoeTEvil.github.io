@@ -7648,6 +7648,9 @@ body.lb-disable-scrolling {
 .nav-item a:hover, a.nav-item:hover {
   color: #ff3860; }
 
+.nav-toggle span {
+  height: 3px; }
+
 .container.is-fluid {
   margin: 0; }
 
