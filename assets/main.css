@@ -7660,6 +7660,15 @@ body.lb-disable-scrolling {
 .nav-toggle span:nth-child(3) {
   margin-top: 6px; }
 
+.nav-toggle:hover {
+  background-color: transparent; }
+
+.nav-toggle:hover span {
+  background-color: #ff470f; }
+
+.nav-toggle.is-active span {
+  background-color: #ff3860; }
+
 .container.is-fluid {
   margin: 0; }
 
