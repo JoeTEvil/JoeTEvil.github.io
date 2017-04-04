@@ -7651,6 +7651,15 @@ body.lb-disable-scrolling {
 .nav-toggle span {
   height: 3px; }
 
+.nav-toggle span:nth-child(1) {
+  margin-top: -6px; }
+
+.nav-toggle span:nth-child(2) {
+  margin-top: 0; }
+
+.nav-toggle span:nth-child(3) {
+  margin-top: 6px; }
+
 .container.is-fluid {
   margin: 0; }
 
