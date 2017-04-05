@@ -7855,23 +7855,25 @@ body.lb-disable-scrolling {
 .tagsGrid {
   background-color: #e95a49; }
 
+.tagsGrid .tagItem {
+  height: 100%; }
+
 .tagsGrid .postItem, .tagsGrid .postItem .postBody {
+  height: 20rem;
   max-height: 20rem; }
 
+@media screen and (max-width: 768px) {
+  .tagsGrid .postItem.tagHeader {
+    max-height: 10rem; } }
+@media screen and (min-width: 769px) {
+  .tagsGrid .postItem.tagHeader {
+    max-height: 15rem; } }
 .tagsGrid .postItem .postMeta h2 {
   font-size: 1.5rem;
   line-height: 2rem; }
 
-.tagsGrid .tagItem {
-  height: 100%; }
-
 .tagsGrid .tagContainer {
-  display: inline-block;
-  padding: 0.4rem .8rem;
-  border-radius: 3rem;
-  border-width: 3px;
-  border-color: rgba(255, 255, 255, 0.3);
-  border-style: solid; }
+  display: inline-block; }
 
 .tagsGrid .tagContainer h2 {
   font-family: 'Ubuntu', sans-serif;
@@ -7887,20 +7889,8 @@ body.lb-disable-scrolling {
   padding: 0 .5rem;
   border-radius: 3rem; }
 
-.tagsGrid .postItem:nth-child(5n+1) .tagContainer {
-  background-color: #db5800; }
-
-.tagsGrid .postItem:nth-child(5n+2) .tagContainer {
-  background-color: #e19000; }
-
-.tagsGrid .postItem:nth-child(5n+3) .tagContainer {
-  background-color: #f0c600; }
-
-.tagsGrid .postItem:nth-child(5n+4) .tagContainer {
-  background-color: #8e7406; }
-
-.tagsGrid .postItem:nth-child(5n+5) .tagContainer {
-  background-color: #59631e; }
+.tagsGrid .postItem .tagContainer {
+  background-color: transparent; }
 
 .tagContainer:first-child h2 span.tag-count {
   margin-left: 0; }
