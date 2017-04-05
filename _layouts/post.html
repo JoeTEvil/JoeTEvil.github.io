@@ -5,16 +5,18 @@ layout: default
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <section class="hero is-medium">
-      <div class="hero-body image-hero" {% if page.image.feature %} style="background-image: url('{{ page.image.feature }}');"
-        {% endif %}>
+      <div class="hero-body image-hero" {% if page.image.feature %} style="background-image: url('{{ page.image.feature }}');"{% endif %}>
         <div class="container">
-          <h1 class="post-title" itemprop="name headline">
+          <h1 class="title post-title" itemprop="name headline">
             {{ page.title | escape }}
           </h1>
-          {% include page-tags.html %}
+          <div class="subtitle">
+            {% include page-tags.html %}
+          </div>
         </div>
       </div>
     </section>
+
     <section class="post-content" itemprop="articleBody">
       <div class="container">
         {{ content }}

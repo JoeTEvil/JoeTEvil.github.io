@@ -16,11 +16,20 @@ $black:     hsla(0, 0%, 0%, 1) !default;
 
 // phaedra kuler theme
 
-$shade-01: rgb(233, 90, 73);
-$shade-02: rgb(226, 122, 63);
-$shade-03: rgb(239, 201, 76);
-$shade-04: rgb(69, 178, 157);
-$shade-05: rgb(51, 77, 92);
+$ph-shade-01: rgb(233, 90, 73);
+$ph-shade-02: rgb(226, 122, 63);
+$ph-shade-03: rgb(239, 201, 76);
+$ph-shade-04: rgb(69, 178, 157);
+$ph-shade-05: rgb(51, 77, 92);
+
+
+// lime-green kuler theme
+
+$lg-shade-01: rgb(219, 88, 0);
+$lg-shade-02: rgb(225, 144, 0);
+$lg-shade-03: rgb(240, 198, 0);
+$lg-shade-04: rgb(142, 116, 6);
+$lg-shade-05: rgb(89, 99, 30);
 
 
 .white { color: $white; }

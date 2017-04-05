@@ -70,8 +70,27 @@
 .nav-item a:hover, a.nav-item:hover {
     color: $red;
 }
-
-
+.nav-toggle span {
+    height:3px;
+}
+.nav-toggle span:nth-child(1) {
+    margin-top: -6px;
+}
+.nav-toggle span:nth-child(2) {
+    margin-top: 0;
+}
+.nav-toggle span:nth-child(3) {
+    margin-top: 6px;
+}
+.nav-toggle:hover {
+    background-color: transparent;
+}
+.nav-toggle:hover span {
+    background-color: $orange;
+}
+.nav-toggle.is-active span {
+    background-color: $red;
+}
 // PostsGrid
 
 .container.is-fluid {
@@ -93,7 +112,7 @@
 }
 .postContent {
     width: 100%;
-    min-height: 6rem;
+    min-height: 7rem;
 }
 
 .postArrow {
@@ -107,19 +126,19 @@
 }
 
 .postItem:nth-child(5n+1) .postArrow {
-    border-bottom-color: $shade-01;
+    border-bottom-color: $ph-shade-01;
 }
 .postItem:nth-child(5n+2) .postArrow {
-    border-bottom-color: $shade-02;
+    border-bottom-color: $ph-shade-02;
 }
 .postItem:nth-child(5n+3) .postArrow {
-    border-bottom-color: $shade-03;
+    border-bottom-color: $ph-shade-03;
 }
 .postItem:nth-child(5n+4) .postArrow {
-    border-bottom-color: $shade-04;
+    border-bottom-color: $ph-shade-04;
 }
 .postItem:nth-child(5n+5) .postArrow {
-    border-bottom-color: $shade-05;
+    border-bottom-color: $ph-shade-05;
 }
 
 .postMeta {
@@ -140,19 +159,19 @@
    // text-shadow: 0px 0px 1px rgba(0,0,0,1);
 }
 .postItem:nth-child(5n+1), .postItem:nth-child(5n+1) .postContent {
-    background-color: $shade-01;
+    background-color: $ph-shade-01;
 }
 .postItem:nth-child(5n+2), .postItem:nth-child(5n+2) .postContent {
-    background-color: $shade-02;
+    background-color: $ph-shade-02;
 }
 .postItem:nth-child(5n+3), .postItem:nth-child(5n+3) .postContent {
-    background-color: $shade-03;
+    background-color: $ph-shade-03;
 }
 .postItem:nth-child(5n+4), .postItem:nth-child(5n+4) .postContent {
-    background-color: $shade-04;
+    background-color: $ph-shade-04;
 }
 .postItem:nth-child(5n+5), .postItem:nth-child(5n+5) .postContent {
-    background-color: $shade-05;
+    background-color: $ph-shade-05;
 }
 
 // General
@@ -245,38 +264,112 @@
     border-radius: 3rem;
 }
 .tagContainer:nth-child(5n+1) {
-    background-color: $shade-05;
+    background-color: $lg-shade-01;
 }
 .tagContainer:nth-child(5n+2) {
-    background-color: $shade-04;
+    background-color: $lg-shade-02;
 }
 .tagContainer:nth-child(5n+3) {
-    background-color: $shade-03;
+    background-color: $lg-shade-03;
 }
 .tagContainer:nth-child(5n+4) {
-    background-color: $shade-02;
+    background-color: $lg-shade-04;
 }
 .tagContainer:nth-child(5n+5) {
-    background-color: $shade-01;
+    background-color: $lg-shade-05;
 }
 
 .tagContainer:first-child h2 span.tag-count {
     margin-left: 0;
 }
 .tagContainer:nth-child(5n+1) h2 span.tag-count {
-    color: $shade-01;
+    color: $ph-shade-05;
 }
 .tagContainer:nth-child(5n+2) h2 span.tag-count {
-    color: $shade-02;
+    color: $ph-shade-04;
 }
 .tagContainer:nth-child(5n+3) h2 span.tag-count {
-    color: $shade-03;
+    color: $ph-shade-03;
 }
 .tagContainer:nth-child(5n+4) h2 span.tag-count {
-    color: $shade-04;
+    color: $ph-shade-02;
 }
 .tagContainer:nth-child(5n+5) h2 span.tag-count {
-    color: $shade-05;
+    color: $ph-shade-01;
+}
+
+// TagsGrid
+.tagsGrid {
+    background-color: $ph-shade-01;
+}
+.tagsGrid .postItem, .tagsGrid .postItem .postBody {
+    max-height: 20rem;
+}
+
+.tagsGrid .postItem .postMeta h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.tagsGrid .tagItem {
+    height: 100%;
+}
+
+.tagsGrid .tagContainer {
+    display: inline-block;
+    padding: 0.4rem .8rem;
+    border-radius: 3rem;
+    border-width: 3px;
+    border-color: rgba(255, 255, 255, .3);
+    border-style: solid;
+}
+
+.tagsGrid .tagContainer h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: white;
+    margin: 0;
+}
+.tagsGrid .tagContainer h2 span.tag-count {
+    background-color: white;
+    padding: 0 .5rem;
+    border-radius: 3rem;
+}
+.tagsGrid .postItem:nth-child(5n+1) .tagContainer {
+    background-color: $lg-shade-01;
+}
+.tagsGrid .postItem:nth-child(5n+2) .tagContainer {
+    background-color: $lg-shade-02;
+}
+.tagsGrid .postItem:nth-child(5n+3) .tagContainer {
+    background-color: $lg-shade-03;
+}
+.tagsGrid .postItem:nth-child(5n+4) .tagContainer {
+    background-color: $lg-shade-04;
+}
+.tagsGrid .postItem:nth-child(5n+5) .tagContainer {
+    background-color: $lg-shade-05;
+}
+
+.tagContainer:first-child h2 span.tag-count {
+    margin-left: 0;
+}
+.tagsGrid .postItem:nth-child(5n+1) .tagContainer h2 span.tag-count {
+    color: $ph-shade-05;
+}
+.tagsGrid .postItem:nth-child(5n+2) .tagContainer h2 span.tag-count {
+    color: $ph-shade-04;
+}
+.tagsGrid .postItem:nth-child(5n+3) .tagContainer h2 span.tag-count {
+    color: $ph-shade-03;
+}
+.tagsGrid .postItem:nth-child(5n+4) .tagContainer h2 span.tag-count {
+    color: $ph-shade-02;
+}
+.tagsGrid .postItem:nth-child(5n+5) .tagContainer h2 span.tag-count {
+    color: $ph-shade-01;
 }
 
 // Post
@@ -299,6 +392,10 @@ h1.post-title  {
     padding: 1rem;
 }
 
+.post-content p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
 // Sections
 
 .sectionsList {
@@ -341,19 +438,19 @@ h1.post-title  {
 }
 
 .featuredItem:nth-child(5n+1) {
-    background-color: $shade-01;
+    background-color: $ph-shade-01;
 }
 .featuredItem:nth-child(5n+2) {
-    background-color: $shade-02;
+    background-color: $ph-shade-02;
 }
 .featuredItem:nth-child(5n+3) {
-    background-color: $shade-03;
+    background-color: $ph-shade-03;
 }
 .featuredItem:nth-child(5n+4) {
-    background-color: $shade-04;
+    background-color: $ph-shade-04;
 }
 .featuredItem:nth-child(5n+5) {
-    background-color: $shade-05;
+    background-color: $ph-shade-05;
 }
 
 .featuredMeta {
