@@ -7952,15 +7952,15 @@ h2.second-title {
   padding: 6rem 0;
   margin: 0 !important; }
 
-.featuredItem h2, .featuredItem h3, .featuredItem p {
+.featuredItem h1, .featuredItem h2, .featuredItem p {
   color: white; }
 
-.featuredItem h2 {
+.featuredItem h1 {
   font-size: 3rem;
   font-weight: bold;
   padding: 1rem 0; }
 
-.featuredItem h3 {
+.featuredItem h2 {
   font-size: 2.5rem;
   padding: 1rem 0; }
 
