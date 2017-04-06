@@ -7895,6 +7895,9 @@ body.lb-disable-scrolling {
   font-size: 1.8rem;
   line-height: 2rem;
   color: white;
+  border-top: solid 4px;
+  border-bottom: solid 4px;
+  padding: 0.5rem 0;
   margin: 0; }
 
 .tagsGrid .tagContainer h2 span.tag-count {
