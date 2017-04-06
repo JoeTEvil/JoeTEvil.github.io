@@ -7868,6 +7868,9 @@ body.lb-disable-scrolling {
 @media screen and (min-width: 769px) {
   .tagsGrid .postItem.tagHeader {
     max-height: 15rem; } }
+@media screen and (min-width: 1000px) {
+  .tagsGrid .postItem.tagHeader {
+    max-height: 20rem; } }
 .tagsGrid .postItem .postMeta h2 {
   font-size: 1.5rem;
   line-height: 2rem; }
