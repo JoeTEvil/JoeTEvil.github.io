@@ -7604,6 +7604,13 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
 
+body {
+  min-height: 100vh;
+  min-width: 100vw; }
+
+.pageWrapper {
+  min-height: 100vh; }
+
 .header {
   width: 100%;
   position: fixed;
@@ -7744,7 +7751,10 @@ body.lb-disable-scrolling {
   background-color: #334d5c; }
 
 .page-content {
-  margin: 4rem 0 0 0; }
+  margin: 4rem 0 0 0;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto; }
 
 .footer {
   background-color: #292929;
