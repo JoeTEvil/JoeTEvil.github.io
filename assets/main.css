@@ -7913,6 +7913,9 @@ body.lb-disable-scrolling {
 .tagsGrid .postItem:nth-child(5n+5) .tagContainer h2 span.tag-count {
   color: #e95a49; }
 
+.hero-body {
+  background-color: #e95a49; }
+
 .image-hero {
   width: 100%;
   background-position: center center;
@@ -7922,6 +7925,14 @@ h1.post-title {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   font-size: 3rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 2px black; }
+
+h2.second-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
   text-align: center;
   color: white;
   text-shadow: 0px 0px 2px black; }
