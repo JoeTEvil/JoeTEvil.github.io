@@ -7750,6 +7750,13 @@ body.lb-disable-scrolling {
   background-color: #292929;
   padding: 2rem 1rem; }
 
+.footerText {
+  font-size: 1.2rem;
+  font-weight: bold; }
+
+.footer .fa {
+  padding-top: 0.2rem; }
+
 .fa-stack.icon {
   height: 1.5rem;
   line-height: 1.5rem;
@@ -7764,6 +7771,9 @@ body.lb-disable-scrolling {
 .fa-heart {
   -webkit-text-stroke-width: .06rem;
   -webkit-text-stroke-color: red; }
+
+.fa.fa-circle {
+  font-size: 1.3rem; }
 
 .fa-sun-o {
   -webkit-text-stroke-width: .06rem;
