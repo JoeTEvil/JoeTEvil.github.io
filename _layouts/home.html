@@ -1,48 +1,7 @@
 --- 
 layout: default 
 ---
-<main class="home page-content" aria-label="Content">
   <div class="home container is-fluid">
-
-    <section id="HomeFeatured">
-      {% for post in site.categories.featured limit:1 %}
-      <div class="featuredItem columns is-gapless">
-        <div class="column is-6">
-          <div class="featuredImage" style="background-image: url('{{ post.image }}')">
-          </div>
-        </div>
-        <div class="column is-4">
-          <div class="featuredMeta">
-            <h2>{{ post.title | escape }}</h2>
-            <h3>{{ post.second-title | escape }}</h3>
-            {{ post.content }}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </section>
-
-    <section id="PostsGrid" class="columns is-multiline is-gapless">
-      {% for post in site.categories.post %}
-      <div class="postItem column {{ post.grid-size }}">
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <article class="postBody flexContainer flexColumn justifyEnd itemsStart" {% if post.image.feature %} style="background-image: url('{{ post.image.feature }}');"
-            {% endif %}>
-            <div class="postArrow flexItem"></div>
-            <div class="postContent flexItem">
-              <div class="flexContainer flexColumn justifyEnd itemsEnd">
-                <div class="postMeta flexItem">
-                  <h2>
-                    {{ post.title | escape }}
-                  </h2>
-                </div>
-                {% include post-tags.html %}
-              </div>
-            </div>
-          </article>
-        </a>
-      </div>
-      {% endfor %}
-    </section>
+    {% include post-featured.html %}
+    {% include post-grid.html %}
   </div>
-</main>

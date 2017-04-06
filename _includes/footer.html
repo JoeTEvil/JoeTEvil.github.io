@@ -2,27 +2,27 @@
   <div class="container is-fluid">
     <div class="columns">
       <div class="column is-centered is-hidden-mobile">
-        <h3 class="white"><span class="icon"><i class="fa fa-copyright white"></i></span> Geekmatic</h3>
+        <div class="footerText white"><span class="icon"><span class="fa fa-copyright white"></span></span> Geekmatic {{ 'now' | date: "%Y" }}</div>
       </div>
       <div class="column is-centered is-hidden-mobile">
-        <h3 class="white">Coded with
+        <div class="footerText white">Coded with
           <span class="icon">
-            <i class="fa fa-heart faa-pulse animated red"></i>
+            <span class="fa fa-heart faa-pulse animated red"></span>
           </span> in <span class="fa-stack icon">
-            <i class="fa fa-circle fa-stack-1x yellow"></i>
-            <i class="fa fa-sun-o faa-rocking animated faa-slow banana"></i>
+            <span class="fa fa-circle fa-stack-1x yellow"></span>
+            <span class="fa fa-sun-o faa-rocking animated faa-slow banana"></span>
           </span> Valencia
-        </h3>
+        </div>
       </div>
       <div class="column is-2 is-centered">
         <div class="flexContainer flexRow justifyBetween">
           {% if site.social.github %}
           <div class="flexItem">
 
-            <a href="https://github.com/{{ site.social.github }}" class="nav-item">
+            <a href="https://github.com/{{ site.social.github }}" class="nav-item"  aria-label="gitub account" title="github account">
               <span class="fa-stack icon">
-                  <i class="fa fa-circle fa-stack-1x black"></i>
-                  <i class="fa fa-github fa-stack-1x white"></i>
+                  <span class="fa fa-circle fa-stack-1x black"></span>
+                  <span class="fa fa-github fa-stack-1x white"></span>
               </span>
             </a>
 
@@ -30,9 +30,9 @@
           {% endif %} {% if site.social.twitter %}
           <div class="flexItem">
 
-            <a href="https://twitter.com/{{ site.social.twitter }}" class="nav-item">
+            <a href="https://twitter.com/{{ site.social.twitter }}" class="nav-item" aria-label="twitter account" title="twitter account">
               <span class="icon">
-                  <i class="fa fa-twitter light-blue"></i>
+                  <span class="fa fa-twitter light-blue"></span>
               </span>
             </a>
 
@@ -40,18 +40,18 @@
           {% endif %} {% if site.social.instagram %}
           <div class="flexItem">
 
-            <a href="https://instagram.com/{{ site.social.instagram }}" class="nav-item">
+            <a href="https://instagram.com/{{ site.social.instagram }}" class="nav-item" aria-label="instagram account" title="instagram account">
               <span class="icon">
-                  <i class="fa fa-instagram"></i>
+                  <span class="fa fa-instagram"></span>
               </span>
             </a>
 
           </div>
           {% endif %}
           <div class="flexItem">
-            <a href="{{ "feed.xml " | relative_url }}" class="nav-item">
+            <a href="{{ "feed.xml " | relative_url }}" class="nav-item" aria-label="rss feed" title="rss feed">
               <span class="icon">
-                  <i class="fa fa-rss orange"></i>
+                  <span class="fa fa-rss orange"></span>
               </span>
             </a>
           </div>

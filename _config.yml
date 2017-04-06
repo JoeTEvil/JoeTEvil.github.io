@@ -24,6 +24,9 @@ social:
   twitter: JoeTEvil
   github:  JoeTEvil
   email: joe.t.evil@gmail.com
+
+permalink: pretty
+
 # Build settings
 markdown: kramdown
 

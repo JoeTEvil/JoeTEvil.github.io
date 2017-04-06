@@ -1,5 +1,5 @@
 ---
-// Main Sass file
+ title: Main Sass file
 ---
 
 @import "bulma/utilities/_all";
@@ -15,6 +15,15 @@
 @import "typography";
 @import "lightbox";
 
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.pageWrapper {
+    min-height: 100vh;
+}
 // Auto hide menu
 
 .header
@@ -177,6 +186,9 @@
 
 .page-content {
     margin: 4rem 0 0 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
 }
 // Footer
 .footer {
@@ -184,6 +196,15 @@
     padding: 2rem 1rem;
 }
 
+.footerText {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.footer .fa {
+    padding-top: 0.2rem;
+}
 .fa-stack.icon {
     height: 1.5rem;
     line-height: 1.5rem;
@@ -193,28 +214,31 @@
 }
 
 .fa-copy {
--webkit-text-stroke-width: .06rem;
--webkit-text-stroke-color: grey;
+    -webkit-text-stroke-width: .06rem;
+    -webkit-text-stroke-color: grey;
 }
 .fa-heart {
--webkit-text-stroke-width: .06rem;
--webkit-text-stroke-color: red;
+    -webkit-text-stroke-width: .06rem;
+    -webkit-text-stroke-color: red;
+}
+.fa.fa-circle {
+    font-size: 1.3rem;
 }
 .fa-sun-o {
--webkit-text-stroke-width: .06rem;
--webkit-text-stroke-color: orangered;
+    -webkit-text-stroke-width: .06rem;
+    -webkit-text-stroke-color: orangered;
 }
 .fa-github {
--webkit-text-stroke-width: .06rem;
--webkit-text-stroke-color: grey;
+    -webkit-text-stroke-width: .06rem;
+    -webkit-text-stroke-color: grey;
 }
 .fa-twitter {
--webkit-text-stroke-width: .06rem;
--webkit-text-stroke-color: blue;
+    -webkit-text-stroke-width: .06rem;
+    -webkit-text-stroke-color: blue;
 }
 .fa-rss {
--webkit-text-stroke-width: .06rem;
--webkit-text-stroke-color: red;
+    -webkit-text-stroke-width: .06rem;
+    -webkit-text-stroke-color: red;
 }
 
 // postItem
@@ -301,25 +325,38 @@
 .tagsGrid {
     background-color: $ph-shade-01;
 }
+.tagsGrid .tagItem {
+    height: 100%;
+}
 .tagsGrid .postItem, .tagsGrid .postItem .postBody {
+    height: 20rem;
     max-height: 20rem;
 }
 
+@media screen and (max-width: 768px) {
+    .tagsGrid .postItem.tagHeader {
+    max-height: 10rem;
+    }
+}
+@media screen and (min-width: 769px) {
+    .tagsGrid .postItem.tagHeader {
+    max-height: 15rem;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .tagsGrid .postItem.tagHeader {
+    max-height: 20rem;
+    }
+}
 .tagsGrid .postItem .postMeta h2 {
     font-size: 1.5rem;
     line-height: 2rem;
 }
-.tagsGrid .tagItem {
-    height: 100%;
-}
+
 
 .tagsGrid .tagContainer {
     display: inline-block;
-    padding: 0.4rem .8rem;
-    border-radius: 3rem;
-    border-width: 3px;
-    border-color: rgba(255, 255, 255, .3);
-    border-style: solid;
+
 }
 
 .tagsGrid .tagContainer h2 {
@@ -329,6 +366,9 @@
     font-size: 1.8rem;
     line-height: 2rem;
     color: white;
+    border-top: solid 4px;
+    border-bottom: solid 4px;
+    padding: 0.5rem 0;
     margin: 0;
 }
 .tagsGrid .tagContainer h2 span.tag-count {
@@ -336,20 +376,8 @@
     padding: 0 .5rem;
     border-radius: 3rem;
 }
-.tagsGrid .postItem:nth-child(5n+1) .tagContainer {
-    background-color: $lg-shade-01;
-}
-.tagsGrid .postItem:nth-child(5n+2) .tagContainer {
-    background-color: $lg-shade-02;
-}
-.tagsGrid .postItem:nth-child(5n+3) .tagContainer {
-    background-color: $lg-shade-03;
-}
-.tagsGrid .postItem:nth-child(5n+4) .tagContainer {
-    background-color: $lg-shade-04;
-}
-.tagsGrid .postItem:nth-child(5n+5) .tagContainer {
-    background-color: $lg-shade-05;
+.tagsGrid .postItem .tagContainer {
+    background-color: transparent;
 }
 
 .tagContainer:first-child h2 span.tag-count {
@@ -372,6 +400,9 @@
 }
 
 // Post
+.hero-body {
+    background-color: $ph-shade-01;
+}
 .image-hero {
     width: 100%;
     background-position: center center;
@@ -386,7 +417,14 @@ h1.post-title  {
     color: white;
     text-shadow: 0px 0px 2px rgba(0,0,0,1);
 }
-
+h2.second-title  {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0,0,0,1);
+}
 .post-content {
     padding: 1rem;
 }
@@ -409,16 +447,16 @@ h1.post-title  {
     margin: 0 !important;
 }
 
-.featuredItem h2, .featuredItem h3, .featuredItem p {
+.featuredItem h1, .featuredItem h2, .featuredItem p {
     color: white;
 }
 
-.featuredItem h2 {
+.featuredItem h1 {
     font-size: 3rem;
     font-weight: bold;
     padding: 1rem 0;
 }
-.featuredItem h3 {
+.featuredItem h2 {
     font-size: 2.5rem;
     padding: 1rem 0;
 }

@@ -1,0 +1,19 @@
+<section id="HomeFeatured">
+  {% for post in site.categories.featured limit:1 %}
+  <a class="post-link" href="{{ post.url | relative_url }}">
+    <div class="featuredItem columns is-gapless">
+      <div class="column is-6">
+        <div class="featuredImage" {% if post.image.feature %} style="background-image: url('{{ post.image.feature }}')" {% endif %}>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="featuredMeta">
+          <h1>{{ post.title | escape }}</h1>
+          <h2>{{ post.second-title | escape }}</h2>
+          {{ post.content }}
+        </div>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</section>

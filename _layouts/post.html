@@ -1,7 +1,6 @@
 --- 
 layout: default 
 ---
-<main class="content page-content" aria-label="Content">
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <section class="hero is-medium">
@@ -11,6 +10,11 @@ layout: default
             {{ page.title | escape }}
           </h1>
           <div class="subtitle">
+            {% if page.second-title %}
+              <h2 class="title second-title">
+                {{ page.second-title }}
+              </h2>
+            {% endif %}
             {% include page-tags.html %}
           </div>
         </div>
@@ -26,4 +30,3 @@ layout: default
     {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
 
   </article>
-</main>

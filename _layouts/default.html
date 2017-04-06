@@ -5,12 +5,14 @@
 
 <body>
   {% include header.html %}
-
-  
-    {{ content }}
-  
-
-  {% include footer.html %} 
+  <div class="pageWrapper flexContainer flexColumn justifyStart">
+    <main class="page-content flexItem" aria-label="Content">
+      {{ content }}
+    </main>
+    <div class="footerContainer flexItem">
+      {% include footer.html %}
+    </div>
+  </div>
   {% include scripts.html %}
 
 </body>
