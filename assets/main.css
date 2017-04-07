@@ -7991,14 +7991,11 @@ h2.second-title {
 .post-content .container p:first-child:first-letter {
   float: left;
   font-size: 7rem;
-  line-height: 7rem;
+  line-height: 5.5rem;
   font-weight: bold;
   font-family: 'Ubuntu', sans-serif;
   margin-right: 0.5rem; }
 
-@media screen and (min-width: 1000px) {
-  .post-content .container p:first-child:first-letter {
-    padding-top: 0.5rem; } }
 .post-content .innerHeader {
   font-weight: bold;
   font-size: 2rem;
