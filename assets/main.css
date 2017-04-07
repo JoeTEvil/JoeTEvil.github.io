@@ -7988,9 +7988,11 @@ h2.second-title {
   line-height: 7rem;
   font-weight: bold;
   font-family: 'Ubuntu', sans-serif;
-  margin-right: 0.5rem;
-  padding-top: 0.5rem; }
+  margin-right: 0.5rem; }
 
+@media screen and (min-width: 1000px) {
+  .post-content .container p:first-child:first-letter {
+    padding-top: 0.5rem; } }
 .post-content .innerHeader {
   font-weight: bold;
   font-size: 2rem;
