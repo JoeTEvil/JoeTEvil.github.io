@@ -7982,6 +7982,12 @@ h2.second-title {
   line-height: 2rem;
   padding-bottom: 1rem; }
 
+.post-content li {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  list-style-type: disc;
+  list-style-position: inside; }
+
 .post-content .container p:first-child:first-letter {
   float: left;
   font-size: 7rem;
@@ -7996,7 +8002,12 @@ h2.second-title {
 .post-content .innerHeader {
   font-weight: bold;
   font-size: 2rem;
-  text-align: center; }
+  text-align: center;
+  margin: 1rem 0; }
+
+.post-content .subHeader {
+  font-weight: bold;
+  font-size: 1.6rem; }
 
 .sectionsList {
   margin-top: 3rem;
