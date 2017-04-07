@@ -20,6 +20,10 @@ body {
     min-height: 100vh;
     min-width: 100vw;
 }
+ @media screen and (max-width: 1920px) {
+    .container {
+      max-width: 1600px; } 
+}
 
 .pageWrapper {
     min-height: 100vh;
@@ -428,11 +432,52 @@ h2.second-title  {
 .post-content {
     padding: 1rem;
 }
-
-.post-content p {
-    font-size: 1.2rem;
-    text-align: justify;
+@media screen and (min-width: 1000px) {
+    .multiColumn {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 2rem;
+        -moz-column-gap: 2rem;
+        column-gap: 2rem;
+    }
 }
+.post-content p {
+    font-family: 'Lora', serif;
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+.post-content li {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.post-content .container p:first-child:first-letter
+{
+   float:left;
+   font-size: 7rem;
+   line-height: 5.5rem;
+   font-weight: bold;
+   font-family: 'Ubuntu', sans-serif;
+   margin-right: 0.5rem;
+}
+
+.post-content .innerHeader {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.post-content .subHeader {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
 // Sections
 
 .sectionsList {
