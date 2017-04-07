@@ -7964,6 +7964,28 @@ h2.second-title {
   color: white;
   text-shadow: 0px 0px 2px black; }
 
+.post-header {
+  padding: 2rem 1rem; }
+
+.post-header .container {
+  border-bottom: solid 1px #666;
+  padding-bottom: 0.5rem; }
+
+.post-header .author-avatar {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-left: 0.5rem; }
+
+.post-header .author-name {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  text-align: right; }
+
+.post-header .post-date {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  text-align: right; }
+
 .post-content {
   padding: 1rem; }
 
@@ -7974,7 +7996,8 @@ h2.second-title {
     column-count: 2;
     -webkit-column-gap: 2rem;
     -moz-column-gap: 2rem;
-    column-gap: 2rem; } }
+    column-gap: 2rem;
+    margin-bottom: 1rem; } }
 .post-content p {
   font-family: 'Lora', serif;
   font-size: 1.4rem;
