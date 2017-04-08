@@ -111,6 +111,10 @@ body {
 
 #PostsGrid{
     background-color: rgb(250, 193, 0);
+    background-image: url("/assets/images/geek.png");
+    background-repeat: repeat;
+    background-size: auto 12%;
+    background-position: center center;
 }
 .container.is-fluid {
     margin: 0;
@@ -132,6 +136,10 @@ body {
 .postContent {
     width: 100%;
     min-height: 7rem;
+    background-image: url("/assets/images/geek.png");
+    background-repeat: repeat;
+    background-size: auto 180%;
+    background-position: center center;
 }
 
 .postArrow {
@@ -334,7 +342,11 @@ body {
 
 // TagsGrid
 .tagsGrid {
-    background-color: rgb(250, 193, 0);;
+    background-color: rgb(250, 193, 0);
+    background-image: url("/assets/images/geek.png");
+    background-repeat: repeat;
+    background-size: auto 12%;
+    background-position: center center;
 }
 .tagsGrid .tagItem {
     height: 100%;
@@ -391,6 +403,12 @@ body {
     background-color: transparent;
 }
 
+.tagsGrid .postItem.tagHeader {
+    background-image: url("/assets/images/geek.png");
+    background-repeat: repeat;
+    background-size: auto 60%;
+    background-position: center center;
+}
 .tagContainer:first-child h2 span.tag-count {
     margin-left: 0;
 }
