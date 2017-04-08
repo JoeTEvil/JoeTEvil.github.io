@@ -21,9 +21,6 @@ body {
     min-width: 100vw;
 }
 
-.pageWrapper {
-    background-color: rgb(250, 193, 0);
-}
 .image {
     margin: 0 auto;
 }
@@ -112,6 +109,9 @@ body {
 }
 // PostsGrid
 
+#PostsGrid{
+    background-color: rgb(250, 193, 0);
+}
 .container.is-fluid {
     margin: 0;
 }
