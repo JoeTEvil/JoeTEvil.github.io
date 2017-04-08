@@ -18,13 +18,16 @@ title: Geekmatic
 description: > # this means to ignore newlines until "baseurl:"
   Gadgets & Gizmos for Geeks.
 baseurl: "" # the subpath of your site, e.g. /blog
+author:
+  display_name: Joe.T.Evil
+  gravatar: dd3b5cb67c034e63cd68e5ed5ef78682
+  email: pepe@geekmatic.com
 url: http://www.geekmatic.com # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-96726832-1
 social:
   twitter: JoeTEvil
   github:  JoeTEvil
-  email: joe.t.evil@gmail.com
-
+ 
 permalink: pretty
 
 # Build settings

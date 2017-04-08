@@ -20,7 +20,20 @@ layout: default
         </div>
       </div>
     </section>
-
+    <section class="post-header">
+      <div class="container">
+      <div class="flexContainer flexRow justifyEnd">
+        
+        <div class="flexItem">
+          <div class="author-name">{{ site.author.display_name }}</div>
+          <div class="post-date">{{ page.date | date: '%B %d, %Y' }}</div>
+        </div>
+        <div class="flexItem">
+          <img class="author-avatar" src="http://www.gravatar.com/avatar/{{ site.author.gravatar }}?s=50">
+        </div>
+      </div>
+      </div>
+    </section>
     <section class="post-content" itemprop="articleBody">
       <div class="container">
         {{ content }}
