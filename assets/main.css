@@ -7609,6 +7609,12 @@ body {
   min-height: 100vh;
   min-width: 100vw; }
 
+.pageWrapper {
+  background-color: #fac100; }
+
+.image {
+  margin: 0 auto; }
+
 @media screen and (max-width: 1920px) {
   .container {
     max-width: 1600px; } }
@@ -7877,7 +7883,7 @@ body {
   color: #e95a49; }
 
 .tagsGrid {
-  background-color: #e95a49; }
+  background-color: #fac100; }
 
 .tagsGrid .tagItem {
   height: 100%; }
