@@ -7609,9 +7609,6 @@ body {
   min-height: 100vh;
   min-width: 100vw; }
 
-.pageWrapper {
-  background-color: #fac100; }
-
 .image {
   margin: 0 auto; }
 
@@ -7685,6 +7682,9 @@ body {
 
 .nav-toggle.is-active span {
   background-color: #ff3860; }
+
+#PostsGrid {
+  background-color: #fac100; }
 
 .container.is-fluid {
   margin: 0; }
