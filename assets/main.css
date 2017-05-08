@@ -7684,11 +7684,7 @@ body {
   background-color: #ff3860; }
 
 #PostsGrid {
-  background-color: #fac100;
-  background-image: url("/assets/images/geek.png");
-  background-repeat: repeat;
-  background-size: auto 12%;
-  background-position: center center; }
+  background-color: #fac100; }
 
 .container.is-fluid {
   margin: 0; }
@@ -7708,11 +7704,7 @@ body {
 
 .postContent {
   width: 100%;
-  min-height: 7rem;
-  background-image: url("/assets/images/geek.png");
-  background-repeat: repeat;
-  background-size: auto 180%;
-  background-position: center center; }
+  min-height: 7rem; }
 
 .postArrow {
   content: ' ';
@@ -7724,19 +7716,19 @@ body {
   margin-bottom: -1px; }
 
 .postItem:nth-child(5n+1) .postArrow {
-  border-bottom-color: #e95a49; }
+  border-bottom-color: #ff6962; }
 
 .postItem:nth-child(5n+2) .postArrow {
-  border-bottom-color: #e27a3f; }
+  border-bottom-color: #cfd41b; }
 
 .postItem:nth-child(5n+3) .postArrow {
-  border-bottom-color: #efc94c; }
+  border-bottom-color: #5ed709; }
 
 .postItem:nth-child(5n+4) .postArrow {
-  border-bottom-color: #45b29d; }
+  border-bottom-color: #008fee; }
 
 .postItem:nth-child(5n+5) .postArrow {
-  border-bottom-color: #334d5c; }
+  border-bottom-color: #7782f9; }
 
 .postMeta {
   height: 3rem;
@@ -7749,24 +7741,28 @@ body {
   font-size: 2.5rem;
   line-height: 3rem;
   padding: .5rem;
-  color: white;
   text-align: left;
   text-transform: uppercase; }
 
 .postItem:nth-child(5n+1), .postItem:nth-child(5n+1) .postContent {
-  background-color: #e95a49; }
+  background-color: #ff6962;
+  color: #cbeefc; }
 
 .postItem:nth-child(5n+2), .postItem:nth-child(5n+2) .postContent {
-  background-color: #e27a3f; }
+  background-color: #cfd41b;
+  color: #dfccfc; }
 
 .postItem:nth-child(5n+3), .postItem:nth-child(5n+3) .postContent {
-  background-color: #efc94c; }
+  background-color: #5ed709;
+  color: #f6fdd2; }
 
 .postItem:nth-child(5n+4), .postItem:nth-child(5n+4) .postContent {
-  background-color: #45b29d; }
+  background-color: #008fee;
+  color: #fde4af; }
 
 .postItem:nth-child(5n+5), .postItem:nth-child(5n+5) .postContent {
-  background-color: #334d5c; }
+  background-color: #7782f9;
+  color: #fde4af; }
 
 .page-content {
   margin: 4rem 0 0 0;
@@ -7891,11 +7887,7 @@ body {
   color: #e95a49; }
 
 .tagsGrid {
-  background-color: #fac100;
-  background-image: url("/assets/images/geek.png");
-  background-repeat: repeat;
-  background-size: auto 12%;
-  background-position: center center; }
+  background-color: #fac100; }
 
 .tagsGrid .tagItem {
   height: 100%; }
@@ -7939,12 +7931,6 @@ body {
 
 .tagsGrid .postItem .tagContainer {
   background-color: transparent; }
-
-.tagsGrid .postItem.tagHeader {
-  background-image: url("/assets/images/geek.png");
-  background-repeat: repeat;
-  background-size: auto 60%;
-  background-position: center center; }
 
 .tagContainer:first-child h2 span.tag-count {
   margin-left: 0; }
